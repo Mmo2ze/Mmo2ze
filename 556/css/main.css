@@ -1,0 +1,212 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Cairo", sans-serif;
+  }
+  ul{
+    list-style: none;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+  header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.container ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.container ul li{
+    padding: 0 20px;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 23px;
+    color: red;
+}
+.container .search{
+    margin-right: -20px;
+}
+.container .search:focus{
+    outline: none;
+}
+
+.container .searq{
+    background-color: red;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+@media(max-width:767px){
+    .container ul li .phon{
+        display: none;
+    }
+    .container ul li{
+        padding: 0;
+    }
+    .container ul li:nth-child(6){
+        margin-right:20px;
+    }
+    .container .searq{
+        margin-right: 20px;
+        padding: 8px;
+    }
+}
+@media(min-width:767px){
+    .container ul li:nth-child(6){
+        display: none;
+    }
+}
+
+.buttom-header{
+    background-color: red;
+    height: 40px;
+}
+.buttom-header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.buttom-header ul li{
+    padding-left: 70px;
+    margin-top: 10px;
+    color: wheat;
+    font-size: 18px;
+    cursor: pointer;
+}
+@media(max-width:767px){
+    .buttom-header{
+        display: none;
+    }
+}
+.landing{
+    background-image: url(../img/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc((100vh - 39px - 75px));
+    position: relative;
+}
+@media(max-width:767px){
+    .landing{
+        display: none;
+    }
+}
+
+.landing .bandg-left{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.landing .bandg-right{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.cards h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cards h2 span {
+    color: red;
+}
+.cards .olvs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 40px;
+}
+.cards .olvs img{
+    max-width: 100%;
+}
+
+.cards .olvs .box{
+
+}
+
+
+.cards .olvs .box h3 span{
+color: gold;
+}
+.cards .olvs .box .star{
+color: gold;
+}
+
+.cards .olvs .box .fot {
+    background-color: red;
+    padding: 2px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+.cards .olvs .do{
+    background-color: #eee;
+    margin: -2px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
